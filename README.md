@@ -10,3 +10,9 @@
 ```sh
 curl -X POST http://localhost:8080/create_event -d '{"date_time": "2024-10-13T13:53:34Z", "event_name": "qwert"}' -H "content-type: application/json"
 ```
+
+## Методы GET принимают дату в виде строки в формате: "год-месяц-день"
+
+## Пример:
+
+http://localhost:8080/events_for_week?date=2024-10-15
